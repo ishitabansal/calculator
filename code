@@ -24,4 +24,5 @@ int main()
     case 2: minus;
     case 3: mult;
     case 4: divide;
+    case 5: default;
 
