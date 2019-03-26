@@ -39,5 +39,16 @@ int main()
         cin>>z.y;
         z.add();
         break;
-
+  int mult()
+    {
+        sum=x*y;
+        cout<<sum;
+    }
+     case 3:
+        z.first();
+        cin>>z.x;
+        z.second();
+        cin>>z.y;
+        z.mult();
+        break;
 
