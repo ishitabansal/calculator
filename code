@@ -12,6 +12,16 @@ class test
     {
         cout<<"Enter second number\n";
     }
+    int add()
+    {
+        sum=x+y;
+        cout<<sum;
+    }
+     int mult()
+    {
+        sum=x*y;
+        cout<<sum;
+    }
 }
 int main()
 {
@@ -20,35 +30,33 @@ int main()
     cout<<"1.Addition\n2.Subtraction\n3.Multiplication\n4.Divition\n";
     cin>>choice;
     switch (choice){
-    case 1: sum;
-    case 2: minus;
-    case 3: mult;
-    case 4: divide;
-    case 5: default;
- } 
- int add()
-    {
-        sum=x+y;
-        cout<<sum;
-    }
-     case 1:
-
-        z.first();
+    case 1: 
+    z.first();
         cin>>z.x;
         z.second();
         cin>>z.y;
         z.add();
         break;
-  int mult()
-    {
-        sum=x*y;
-        cout<<sum;
-    }
-     case 3:
-        z.first();
+        
+    
+    case 3: 
+     z.first();
         cin>>z.x;
         z.second();
         cin>>z.y;
         z.mult();
         break;
+        
+    
+    case 5: default:
+            cout<<"invalid entry";
+            break;
+            };
+ } 
+ 
+
+        
+ 
+     
+       
 
