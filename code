@@ -12,6 +12,11 @@ class test
     {
         cout<<"Enter second number\n";
     }
+     int add()
+    {
+        sum=x+y;
+        cout<<sum;
+    }
 }
 int main()
 {
@@ -21,16 +26,6 @@ int main()
     cin>>choice;
     switch (choice){
     case 1: sum;
-    case 2: minus;
-    case 3: mult;
-    case 4: divide;
-    case 5: default;
- } 
- int add()
-    {
-        sum=x+y;
-        cout<<sum;
-    }
      case 1:
 
         z.first();
@@ -39,5 +34,12 @@ int main()
         cin>>z.y;
         z.add();
         break;
+    case 2: minus;
+    case 3: mult;
+    case 4: divide;
+    case 5: default;
+ } 
+
+    
 
 
