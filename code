@@ -12,3 +12,16 @@ class test
     {
         cout<<"Enter second number\n";
     }
+}
+int main()
+{
+    test z;
+    int choice;
+    cout<<"1.Addition\n2.Subtraction\n3.Multiplication\n4.Divition\n";
+    cin>>choice;
+    switch (choice){
+    case 1: sum;
+    case 2: minus;
+    case 3: mult;
+    case 4: divide;
+
