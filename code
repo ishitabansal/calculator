@@ -23,6 +23,7 @@ class test
         cout<<sum;
     }
 }
+
 int main()
 {
     test z;
